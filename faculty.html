@@ -1,0 +1,1545 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><b style="color:violet;">RGM College</b></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="Courses.html" class="nav-item nav-link">Courses</a>
+                <a href="faculty.html" class="nav-item nav-link">Faculty</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div id="course">
+        <img src="images/faculty.jpg" class="img-fluid">
+        <div class="middle">
+            <h1 style="color: rgb(29, 115, 220);">Faculty</h1>
+        </div>
+    </div> <br>
+    <div id="page">
+        <p style="text-align: center;"><a href="index.html">Home /</a> <a href="Courses.html">Courses /</a> <a
+                href="faculty.html">Faculty</a> </p>
+    </div><br>
+    <center id="course">
+        <h5 style="color: aqua;">Departments</h5>
+    </center> <br>
+    <br>
+    <center>
+        <div class="btn-container">
+            <button onclick="showOverview('cse-overview')">CSE</button>
+            <button onclick="showOverview('ece-overview')">ECE</button>
+            <button onclick="showOverview('mca-overview')">MCA</button>
+            <button onclick="showOverview('mba-overview')">MBA</button>
+        </div>
+    </center>
+
+    <section class="">
+        <div id="cse-overview" class="course-overview">
+            <span class="overview"> 
+                <h2>Overview <br>
+                    <p style="color: black;">Course Details </p>
+                    <p style="color: blue;;">Course Name: Computer Science Engineering</p>
+                </h2>
+                <p style=" width: 1000px; text-align: justify;">
+                    The Department of Computer Science and Engineering (CSE), RGMCET, Nandyal, was established in the
+                    year
+                    1995
+                    with a modest intake of 40 students. Over the years it has grown by leaps and bounds and presently
+                    offers
+                    the B.Tech course in Computer Science and Engineering with a sanctioned intake of 240 students. The
+                    Department also offers a P.G. course in Computer Science with an intake of 9. The Department has
+                    been
+                    recognized as a Research Centre to offer Full Time Doctoral Program in Computer Science and
+                    Engineering,
+                    under Jawaharlal Nehru Technology University (JNTUA), Ananthapuramu, Andhra Pradesh. The Department
+                    is
+                    vigorously undertaking research and development activities in emerging thrust areas, introducing new
+                    innovative courses based on the industry needs, while collaborating with National and International
+                    Institutions, R & D organizations and Industries. The Department has contributed substantially to
+                    the
+                    NAAC
+                    accreditation of RGMCET with A+, making the college one of the twelve colleges in India to
+                    receive this honor.
+                </p>
+            </span>
+            <section class="faculty1">
+                <div class="box">
+                    <div class="ribbon-2">
+                        <h3>Department of Computer Science-CSE</h3>
+                    </div>
+                    <br><br> <br><br>
+                    <section class="facu1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p19.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">G.Sunil Vijay Kumar</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>Dr. Sunil Vijay Kumar</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>10 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/p9.jpg" class="card-img-top" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">V. V. Nagendra kumar</h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal1">
+                                        More Info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal1" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="about-fac">
+                                                        <tr>
+                                                            <td id="side">Name : </td>
+                                                            <td>V. V. Nagendra kumar</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Designation :</td>
+                                                            <td>M.tech, ph.d</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Department :</td>
+                                                            <td>CSE</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Experience :</td>
+                                                            <td>8 years</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Feedback : </td>
+                                                            <td>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <br><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p5.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">M. Ravi kumar</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal2">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>M. Ravi kumar</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>6 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section> <br><br>
+                    <section class="facu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p2.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">G. Murthuja</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal3">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal3" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>G. Murthuja</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>9 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p12.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr. O. Sampath</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal4">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal4" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>Dr. O. Sampath</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>CSE, MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>15 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p6.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">K. Rameshwara Reddy</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal5">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal5" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>K. Rameswara Reddy</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>10 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+                    
+            </section>
+        </div>
+        <div id="ece-overview" class="course-overview">
+            <span class="overview">
+                <h2>Overview <br>
+                    <p style="color: black;">Course Details </p>
+                    <p style="color: blue;;">Course Name: Electronics and Communication Engineering</p>
+                </h2>
+                <p style=" width: 1000px; text-align: justify;">
+                    The Department of Eelctronics (ECE), RGMCET, Nandyal, was established in the year 1995
+                    with a modest intake of 40 students. Over the years it has grown by leaps and bounds and presently
+                    offers
+                    the B.Tech course in Computer Science and Engineering with a sanctioned intake of 240 students. The
+                    Department also offers a P.G. course in Computer Science with an intake of 9. The Department has
+                    been
+                    recognized as a Research Centre to offer Full Time Doctoral Program in Computer Science and
+                    Engineering,
+                    under Jawaharlal Nehru Technology University (JNTUA), Ananthapuramu, Andhra Pradesh. The Department
+                    is
+                    vigorously undertaking research and development activities in emerging thrust areas, introducing new
+                    innovative courses based on the industry needs, while collaborating with National and International
+                    Institutions, R & D organizations and Industries. The Department has contributed substantially to
+                    the
+                    NAAC
+                    accreditation of RGMCET with A+, making the college one of the twelve colleges in India to
+                    receive this honor.
+                </p>
+            </span>
+            <section class="faculty1">
+                <div class="box">
+                    <div class="ribbon-2">
+                        <h3>Department of Electronics-ECE</h3>
+                    </div>
+                    <br><br> <br><br>
+                    <section class="facu1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p17.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">G. Sai Nath</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal5">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal5" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>G. Sai Nath</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>ECE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>12 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p3.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">Y. Subba Reddy</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal6">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal6" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>Y. Subba Reddy</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>ECE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>15 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p1.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">E. Vijay Kumar</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal7">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal7" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>E. Vijay Kumar</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>ECE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>9 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> <br><br>
+                    <section class="facu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p4.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">S. Saniya</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal8">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal8" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>S. Saniya</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>ECE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>7 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p8.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">G. Naveen Kumar</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal9">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal9" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>G. Naveen Kumar</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>ECE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>17 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p16.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">V. Lakshmi Kumari</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal10" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>V. Lakshmi Kumari</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>ECE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>12 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                    
+            </section>
+        </div>
+        <div id="mca-overview" class="course-overview">
+            <span class="overview">
+                <h2>Overview <br>
+                    <p style="color: black;">Course Details </p>
+                    <p style="color: blue;;">Course Name: Master of Computer Application</p>
+                </h2>
+                <p style=" width: 1000px; text-align: justify;">
+                    The Department of Computer Applictions (MCA), RGMCET, Nandyal, was established in the year 1995
+                    with a modest intake of 40 students. Over the years it has grown by leaps and bounds and presently
+                    offers
+                    the B.Tech course in Computer Science and Engineering with a sanctioned intake of 240 students. The
+                    Department also offers a P.G. course in Computer Science with an intake of 9. The Department has
+                    been
+                    recognized as a Research Centre to offer Full Time Doctoral Program in Computer Science and
+                    Engineering,
+                    under Jawaharlal Nehru Technology University (JNTUA), Ananthapuramu, Andhra Pradesh. The Department
+                    is
+                    vigorously undertaking research and development activities in emerging thrust areas, introducing new
+                    innovative courses based on the industry needs, while collaborating with National and International
+                    Institutions, R & D organizations and Industries. The Department has contributed substantially to
+                    the
+                    NAAC
+                    accreditation of RGMCET with A+, making the college one of the twelve colleges in India to
+                    receive this honor.
+                </p>
+            </span>
+            <section class="faculty1">
+                <div class="box">
+                    <div class="ribbon-2">
+                        <h3>Master of Computer Applications-MCA</h3>
+                    </div>
+                    <br><br> <br><br>
+
+                    <section class="facu1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p7.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">k. Hari Nath</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal11">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal11" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>K. Hari Nath</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>10 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p19.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">G.Sunil Vijay Kumar</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal12">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal12" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>Dr. Sunil Vijay Kumar</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>10 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p9.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">V. V. Nagendra Kumar</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal13">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal13" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>V. V. Nagendra Kumar</td> Kumar</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>8 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> <br><br>
+                    <section class="facu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p11.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">J. Narasimha Naidu</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal14">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal14" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>J. Narasimha Naidu</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>14 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p20.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">U. Hari Govind</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal15">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal15" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>U. Hari Govind</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>6 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p15.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">L. Vijaya</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal16">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal16" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>L. Vijaya</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M.tech, ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MCA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>11 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                    
+            </section>
+        </div>
+        <div id="mba-overview" class="course-overview">
+            <span class="overview">
+                <h2>Overview <br>
+                    <p style="color: black;">Course Details </p>
+                    <p style="color: blue;;">Course Name: Master of Business and Administration</p>
+                </h2>
+                <p style=" width: 1000px; text-align: justify;">
+                    The Department of Business and Administration (MBA), RGMCET, Nandyal, was established in the year
+                    1995
+                    with a modest intake of 40 students. Over the years it has grown by leaps and bounds and presently
+                    offers
+                    the B.Tech course in Computer Science and Engineering with a sanctioned intake of 240 students. The
+                    Department also offers a P.G. course in Computer Science with an intake of 9. The Department has
+                    been
+                    recognized as a Research Centre to offer Full Time Doctoral Program in Computer Science and
+                    Engineering,
+                    under Jawaharlal Nehru Technology University (JNTUA), Ananthapuramu, Andhra Pradesh. The Department
+                    is
+                    vigorously undertaking research and development activities in emerging thrust areas, introducing new
+                    innovative courses based on the industry needs, while collaborating with National and International
+                    Institutions, R & D organizations and Industries. The Department has contributed substantially to
+                    the NAAC
+                    accreditation of RGMCET with A+, making the college one of the twelve colleges in India to
+                    receive this honor.
+                </p>
+            </span>
+            <section class="faculty1">
+                <div class="box">
+                    <div class="ribbon-2">
+                        <h3>Master of Businesss And Administrations-MBA</h3>
+                    </div>
+                    <br><br> <br><br>
+
+                    <section class="facu1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/p18.jpg" class="card-img-top" height="200px">
+                            <div class="card-body">
+                                <h5 class="card-title">V. Prasanna Lakshmi</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal17">
+                                    More Info
+                                </button>
+                                <div class="modal fade" id="exampleModal17" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="about-fac">
+                                                    <tr>
+                                                        <td id="side">Name : </td>
+                                                        <td>V. Prasanna Lakshmi</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Designation :</td>
+                                                        <td>M com ph.d</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Department :</td>
+                                                        <td>MBA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Experience :</td>
+                                                        <td>15 years</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="side">Feedback : </td>
+                                                        <td>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/p10.jpg" class="card-img-top" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">V. Shairley</h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal18">
+                                        More Info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal18" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="about-fac">
+                                                        <tr>
+                                                            <td id="side">Name : </td>
+                                                            <td>V. Shairley</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Designation :</td>
+                                                            <td>M com, ph.d</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Department :</td>
+                                                            <td>MBA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Experience :</td>
+                                                            <td>9 years</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Feedback : </td>
+                                                            <td>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <br><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/p21.jpg" class="card-img-top" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Y. Eswar Prasad</h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal19">
+                                        More Info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal19" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="about-fac">
+                                                        <tr>
+                                                            <td id="side">Name : </td>
+                                                            <td>Y. Eswar Prasad</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Designation :</td>
+                                                            <td>M com, ph.d</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Department :</td>
+                                                            <td>MBA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Experience :</td>
+                                                            <td>12 years</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Feedback : </td>
+                                                            <td>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <br><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="facu2">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/p22.jpg" class="card-img-top" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">P. Hari Teja</h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal20">
+                                        More Info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal20" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="about-fac">
+                                                        <tr>
+                                                            <td id="side">Name : </td>
+                                                            <td>P. Hari Teja</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Designation :</td>
+                                                            <td>M com, Phd</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Department :</td>
+                                                            <td>MBA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Experience :</td>
+                                                            <td>8 years</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Feedback : </td>
+                                                            <td>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <br><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/p24.jpg" class="card-img-top" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">A. Shajahan</h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal21">
+                                        More Info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal21" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="about-fac">
+                                                        <tr>
+                                                            <td id="side">Name : </td>
+                                                            <td>A. Shajahan</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Designation :</td>
+                                                            <td>M com</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Department :</td>
+                                                            <td>MBA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Experience :</td>
+                                                            <td>6 years</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Feedback : </td>
+                                                            <td>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star "></span>
+                                                                <span class="fa fa-star"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <br><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/p23.jpg" class="card-img-top" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">V. Jaswanth Kumar</h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal22">
+                                        More Info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal22" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="about-fac">
+                                                        <tr>
+                                                            <td id="side">Name : </td>
+                                                            <td>V. Jaswanth Kumar</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Designation :</td>
+                                                            <td>M com, ph.d</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Department :</td>
+                                                            <td>MBA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Experience :</td>
+                                                            <td>7 years</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="side">Feedback : </td>
+                                                            <td>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star "></span>
+                                                                <span class="fa fa-star"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <br><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                    
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </section> <hr>
+    <section class="footer">
+        <p>The JNTUA University at Ananthapur provide one of the earliest form of technical studies,
+            which has been vital in setting up the standard of brilliance.</p>
+        <p id="copyright">Made By &#10084; MCA Mavericks</p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

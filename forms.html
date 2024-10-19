@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Modal</title>
+ 
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+legend {
+    padding: 0 10px;
+}
+
+</style>
+<body>
+    <button id="open-modal">Open Registration Form</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h1>Student Registration Form</h1>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="student-id" style="padding: 50px;">Student ID:</label>
+                <input type="text" id="student-id" name="student-id" required>
+
+                <label for="email" style="padding: 50px;">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone" >Phone No:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <fieldset>
+                    <legend>Subjects (Select 4):</legend>
+                    <label><input type="checkbox" name="subjects" value="mathematics"> Mathematics</label>
+                    <label><input type="checkbox" name="subjects" value="physics"> Physics</label>
+                    <label><input type="checkbox" name="subjects" value="chemistry"> Chemistry</label>
+                    <label><input type="checkbox" name="subjects" value="biology"> Biology</label>
+                    <label><input type="checkbox" name="subjects" value="history"> History</label>
+                    <label><input type="checkbox" name="subjects" value="geography"> Geography</label>
+                    <label><input type="checkbox" name="subjects" value="literature"> Literature</label>
+                    <label><input type="checkbox" name="subjects" value="computer-science"> Computer Science</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Lab Subjects (Select 2 mandatory):</legend>
+                    <label><input type="checkbox" name="lab-subjects" value="computer-lab"> Computer Lab</label>
+                    <label><input type="checkbox" name="lab-subjects" value="physics-lab"> Physics Lab</label>
+                    <label><input type="checkbox" name="lab-subjects" value="chemistry-lab"> Chemistry Lab</label>
+                    <label><input type="checkbox" name="lab-subjects" value="biology-lab"> Biology Lab</label>
+                </fieldset>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
