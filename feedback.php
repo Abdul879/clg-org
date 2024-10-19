@@ -12,29 +12,25 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
        // Retrieve form data using POST method 
-         $name = $_POST["name"];
-         $student-id = $_POST["student-id"];
-         $email = $_POST["email"];
-         $phone = $_POST["phone"];
-         $gender = $_POST["gender"];
-         $sujects = $_POST["subjects"];
-         $lab-subjects = $_POST["lab-subjects"];
+       $student_name = $_POST["student_name"];
+       $student_id = $_POST["student_id"];
+       $department = $_POST["department"];
+       $teacher = $_POST["teacher"];
+       $rating = $_POST["rating"];
+       $feedback = $_POST["feedback"];
 
-         // Insert data into the database
-         $sql = "INSERT INTO cse-dept ( name, student-id, email, phone, gender, subjects, lab-subjects) VALUES ('$name', '$student-id', '$email', '$phone', '$gender', '$subjects', '$lab-subjects')";
-          if ($conn->query($sql) === TRUE) {
-
-            header("Location: services.html");
-
-        } else {
+       // Insert data into the database
+       $sql = "INSERT INTO feedback (student_name, student_id, department, teacher, rating, feedback) 
+               VALUES ('$student_name', '$student_id', '$department', '$teacher', '$rating', '$feedback')";
+       
+       if ($conn->query($sql) === TRUE) {
+            header("Location: Contact.html");
+       } else {
             echo "<div class='alert alert-danger' role='alert'>Error: " . $sql . "<br>" . $conn->error . "</div>";
-        }
+       }
+    } else {
+        echo "Error: Form submission method not allowed";
     }
-    else{
-        echo "Error: Form subbmission method not allowed";
-    }
+    
     $conn->close();
-    ?>
-
-
-
+?>
